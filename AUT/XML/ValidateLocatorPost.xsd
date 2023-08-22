@@ -1,0 +1,23 @@
+﻿<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://ey.com/ValidateLocatorPost.xsd"
+            elementFormDefault="qualified">
+  <xsd:element name="ApplicationUsageTracker"/>
+
+  <xsd:element name="Package">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="PackageType" type="xsd:string"/>
+        <xsd:element name="PackageVersion" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="Payload">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Locator"   type="xsd:string"/>
+        <xsd:element name="LocatorType" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+   </xsd:element>
+</xsd:schema>

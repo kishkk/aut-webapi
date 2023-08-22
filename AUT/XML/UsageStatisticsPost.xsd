@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<xs:schema id="UsageStatisticsPost" targetNamespace="http://ey.com/UsageStatisticsPost.xsd"
+	xmlns:mstns="http://ey.com/UsageStatisticsPost.xsd" xmlns="http://ey.com/UsageStatisticsPost.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="ApplicationUsageTracker" msdata:IsDataSet="true" msdata:EnforceConstraints="false">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Package" maxOccurs="1" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PackageType" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="PackageVersion" type="xs:string" minOccurs="1" maxOccurs="1" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Payload" minOccurs="1" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplicationID" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="TaxYear" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="AppVersion" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="AppFileName" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="User5x2" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="UserUPN" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="FilingEntityID" type="xs:string" minOccurs="1" maxOccurs="1" />
+              <xs:element name="GUID" type="xs:string" minOccurs="0" maxOccurs="1" />
+							<xs:element name="Attributes" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Attribute" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="AttName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+													<xs:element name="AttValue" type="xs:string" minOccurs="1" maxOccurs="1"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

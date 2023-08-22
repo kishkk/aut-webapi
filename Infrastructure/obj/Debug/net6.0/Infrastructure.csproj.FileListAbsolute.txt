@@ -1,0 +1,15 @@
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\bin\Debug\net6.0\Application.dll
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\bin\Debug\net6.0\Application.pdb
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Docs\Experiments\DotNet\AUT\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
